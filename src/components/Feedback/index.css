@@ -1,0 +1,40 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  font-family: 'Roboto';
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: 50vw;
+}
+.heading {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+}
+.emoji-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.emoji {
+  margin: 10px;
+  text-align: center;
+}
+.emoji-img {
+  height: 100px;
+  width: 100px;
+}
+.button {
+  border-width: 0px;
+  background: transparent;
+}
